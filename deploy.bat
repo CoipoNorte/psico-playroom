@@ -12,8 +12,8 @@ REM
 REM  La página quedará en:  https://GH_USER.github.io/GH_REPO/
 REM =====================================================================
 
-set "GH_USER="
-set "GH_REPO="
+set "GH_USER=CoipoNorte"
+set "GH_REPO=psico-playroom"
 
 REM Rama donde vive el código y rama donde se publica la página
 set "MAIN_BRANCH=main"
