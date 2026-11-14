@@ -1,35 +1,36 @@
-# Dependencies
+# Dependencias
 node_modules/
-.pnp
-.pnp.js
 
-# Build output
+# Compilación
 dist/
 dist-ssr/
 *.local
 
-# Environment
-.env
-.env.local
-.env.*.local
+# Capturas y resultados de pruebas
+shots/
+test-results/
+playwright-report/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
+# Registros
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Temporary files
-*.tmp
-*.temp
+# Editores y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
